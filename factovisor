@@ -1,3 +1,4 @@
+#python
 def factovisor(n,m):
     fact =1
     isDivisible = False
@@ -20,3 +21,13 @@ while True:
             print("{} does not divide {}!".format(m,n))
     except:
         break
+
+/*
+Input:-
+6 9
+6 27
+
+Output:-
+9 divides 6!
+27 does not divide 6!
+*/
